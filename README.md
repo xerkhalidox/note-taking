@@ -1,5 +1,5 @@
 # Note taking
-A simple restful app to store and retrieve notes
+A simple RESTful app to store and retrieve notes
 
 # Tech stack:
 * Maven.
