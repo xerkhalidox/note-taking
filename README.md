@@ -1,4 +1,4 @@
-# note-taking
+# Note taking
 A simple restful app to store and retrieve notes
 
 # Tech stack:
