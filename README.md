@@ -14,6 +14,7 @@ The project is a parent maven project with 2 modules Server and Client. The serv
 * To setup the database and configure it run
   `docker run --name noteTakingDB -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password -p 5436:5432 -d postgres:14.2-bullseye`
   you can replace user and password and set another port but you need to change the values to reflect in `./server/src/main/resources/application.properties`.
+* Run `docker exec -it {db container id or name} /bin/sh` then run `psql -U {POSTGRES_USER used in running the container}` and run `create database notetaking;` to create the database.
 * Run `mvn package` in server module to produce the jar file then run the app.
 * Run `NoteTakingServerTest` to test the server and store some notes.
 
@@ -23,6 +24,7 @@ The project is a parent maven project with 2 modules Server and Client. The serv
 * Adding more unit tests and integration tests.
 * Implementing spring security and tokenize the APIs using by using JWT tokens for example.
 * Implementing rate limiting.
+* Implementing logs.
 
 
 
