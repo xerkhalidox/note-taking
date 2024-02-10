@@ -1,11 +1,11 @@
 # Note taking
-A simple RESTful app to store and retrieve notes
+A simple RESTful app to store and retrieve notes.
 
 # Tech stack:
 * Maven.
 * Java 11.
-* Docker
-* PgAdmin(optiona) can be used to access the database and query the data in interactive way.
+* Docker.
+* PgAdmin(optional) can be used to access the database and query the data in an interactive way.
   
 The project is a parent maven project with 2 modules Server and Client. The server has the apis and the storing logic and the client is communicating with the server using WebTestClient.
 
