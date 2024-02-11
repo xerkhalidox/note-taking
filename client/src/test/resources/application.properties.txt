@@ -1,5 +1,5 @@
 server.base.url=http://localhost:8080
-spring.datasource.url=jdbc:postgresql://localhost:5436/note-taking
+spring.datasource.url=jdbc:postgresql://localhost:5436/notetaking
 spring.datasource.username=user
 spring.datasource.password=password
 spring.jpa.hibernate.ddl-auto=update
